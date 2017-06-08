@@ -4,11 +4,11 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Tribute to Satoshi Tajiri</title>
-        <meta name="description" content="">
+        <meta name="description" content="Tribute page project for FreeCodeCamp">
         <meta name="viewport" content="width=device-width, initial-scale=1">
      
-        <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css"> check if normalize overrides my css -->
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css"> 
+        <link rel="stylesheet" href="CSS/main.css">
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
         <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
@@ -19,25 +19,24 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-    <!-- test flex container css styles -->
-    <div class = "flex-container">
-        <main id="main">
+        <main id="main" class = "flex-container">
         <!-- /header --> 
-           <header id="header" class="flex-item">
-               <h1 id="title" class="flex-item"> Satoshi Tajiri </h1>
-               <strong><em><p>Founder of GameFreak and Creator of Pokemon</p></em></strong>
-               <hr></<hr>
+            <header id="header" class="flex-item">
+               <em><h1 id="title" class="flex-item">Satoshi Tajiri</h1></em>
+               <strong><p>Founder of GameFreak and Creator of Pokemon</p></strong>
                <figure>
-                   <img src="https://cdn.bulbagarden.net/upload/5/5e/Satoshi_Tajiri_2016.jpg" alt="Image of Satoshi Tajiri" id="resize">
-                   <figcaption id="img-caption" class="flex-item">Satoshi Tajiri (Japanese: 田尻 智 Tajiri Satoshi),born <time datetime="1965-08-28">August 28, 1965</time> is a Japanese video game designer best known as the creator Nintendo's Pokémon franchise and the founder of video game developer Game Freak.</figcaption>
-                </figure>
-           </header>
-           <hr></<hr>
-           <!-- Tribute Info -->
-           <article id=tribute-info class="flex-item">
-           <h2>Short Bio</h2>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-           </article>
+                <div id=img-div>
+                    <img src="https://cdn.bulbagarden.net/upload/5/5e/Satoshi_Tajiri_2016.jpg" alt="Image of Satoshi Tajiri" id="image">
+                    <figcaption id="img-caption" class="flex-item">Satoshi Tajiri <i>(Japanese: 田尻 智 Tajiri Satoshi)</i>, born <time datetime="1965-08-28">August 28, 1965</time> is a Japanese video game designer best known as the creator Nintendo's Pokémon franchise and the founder of video game developer Game Freak.</figcaption>
+                </div>
+              </figure>
+            </header>
+            <!-- Tribute Info -->
+            <article id=tribute-info class="flex-item">
+            <h1>Short Bio</h1>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<p>
+               <footer class="flex_item">If you'd like to know more, read up on his <a href="https://en.wikipedia.org/wiki/Satoshi_Tajiri" target="_blank" id="tribute-link">Wikipedia</a></footer>
+            </article>
         </main>
 
         <!-- Jqeury -->
@@ -50,7 +49,5 @@
             ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
         </script>
         <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-    </div>
-
     </body>
 </html>

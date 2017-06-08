@@ -9,7 +9,7 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    color: #333;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -88,11 +88,17 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-#resize {
-    display: block;
-    max-width: 639px;
-    height: auto;
+#img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+#image {
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+    }
 .flex-container {
     display: flex;
     display: -webkit-flex;
@@ -100,35 +106,18 @@ textarea {
     -webkit-flex-direction: column;
     align-items: center; 
     justify-content: center;
-    font-family: 'Raleway', sans-serif;
-    background-color: black;
-    border-radius: 10px;
-    border-color: red;
+    border-radius: 15px;
+    background-color: #a3a2a2
 }
 .flex-item {
     text-align: center;
-    align-self: center;
-    justify-self: center;
     flex-wrap: nowrap;
     padding: 5px;
     margin: 5px;
-    background-color: darkslategrey;
+    background-color: #cecece;
     font-family: 'Playfair Display', serif;
+    border-radius: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ==========================================================================
