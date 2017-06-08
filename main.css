@@ -87,7 +87,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.main {
+.flex_container {
     display: -webkit-flex;
     display: flex;
     -webkit-flex-direction: column;
@@ -99,13 +99,14 @@ textarea {
 }
 .flex_item {
     text-align: center;
+    flex-wrap: wrap;
     padding: 5px;
     margin: 5px;
     background-color: darkslategrey;
     font-family: 'Playfair Display', serif;
 }
 
-#image {
+#image_div {
     display: block;
     max-width: 100%;
     height: auto;
