@@ -93,11 +93,13 @@ textarea {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 #image {
     border-radius: 15px;
     max-width: 100%;
     height: auto;
+    box-shadow: 10px 10px 5px grey;
     }
 .flex-container {
     display: flex;
@@ -106,7 +108,7 @@ textarea {
     -webkit-flex-direction: column;
     align-items: center; 
     justify-content: center;
-    border-radius: 15px;
+    box-shadow: 10px 10px 5px grey;
     background-color: #a3a2a2
 }
 .flex-item {
@@ -116,7 +118,7 @@ textarea {
     margin: 5px;
     background-color: #cecece;
     font-family: 'Playfair Display', serif;
-    border-radius: 15px;
+    box-shadow: 10px 10px 5px grey;
 }
 
 
