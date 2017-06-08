@@ -92,22 +92,21 @@ textarea {
     display: flex;
     -webkit-flex-direction: column;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
+    justify-content: center;
     font-family: 'Raleway', sans-serif;
-    margin: 0 auto;
     background-color: grey;
 }
 .flex_item {
     text-align: center;
     padding: 5px;
     margin: 5px;
-    background-color: darkslategrey ;
+    background-color: darkslategrey;
     font-family: 'Playfair Display', serif;
 }
 
 #image {
     display: block;
-    width: 639px;
     max-width: 100%;
     height: auto;
 }
