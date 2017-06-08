@@ -87,7 +87,32 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.main {
+    display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    background: slategrey;
+}
+.flex-item {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    background: slategray;
+    font-family: 'Playfair Display', serif;
+}
 
+#img {
+    width: 639px;
+    max-width: 100%;
+    max-height: 960px;
+}
 
 
 
