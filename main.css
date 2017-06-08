@@ -88,30 +88,28 @@ textarea {
    Author's custom styles
    ========================================================================== */
 .main {
-    display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
-    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-    display: -ms-flexbox;      /* TWEENER - IE 10 */
-    display: -webkit-flex;     /* NEW - Chrome */
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
     flex-direction: column;
+    align-items: center;
     font-family: 'Raleway', sans-serif;
     margin: 0 auto;
-    align-items: center;
-    justify-content: center;
-    background: slategrey;
+    background-color: grey;
 }
-.flex-item {
+.flex_item {
     text-align: center;
     padding: 5px;
     margin: 5px;
-    background: slategray;
+    background-color: darkslategrey ;
     font-family: 'Playfair Display', serif;
 }
 
-#img {
+#image {
+    display: block;
     width: 639px;
     max-width: 100%;
-    max-height: 960px;
+    height: auto;
 }
 
 
