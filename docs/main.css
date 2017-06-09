@@ -88,6 +88,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+#img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 #image {
     max-width: 100%;
     height: auto;
@@ -101,7 +107,7 @@ textarea {
     align-items: center; 
     justify-content: center;
     font-family: 'Raleway', sans-serif;
-    background-color: black;
+    background-color: #c9cacc;
 }
 .flex-item {
     text-align: center;
@@ -110,25 +116,10 @@ textarea {
     flex-wrap: nowrap;
     padding: 5px;
     margin: 5px;
-    background-color: #424242;
+    background-color: #c9cacc;
     font-family: 'Playfair Display', serif;
     box-shadow: 1px 0px 22px 2px rgba(51,51,51,1);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes
