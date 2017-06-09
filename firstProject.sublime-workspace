@@ -7,15 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 1661,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -93,6 +84,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Huseen Sufi/Documents/FreeCodeCamp/FreeCodeCampTributePage/index.html",
 		"/C/Users/Huseen Sufi/AppData/Roaming/Sublime Text 3/Packages/sublime-github/GitHub.sublime-settings",
 		"/C/Users/Huseen Sufi/AppData/Roaming/Sublime Text 3/Packages/User/Git.sublime-settings",
 		"/C/Users/Huseen Sufi/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
@@ -134,37 +126,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1661,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								683,
-								683
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

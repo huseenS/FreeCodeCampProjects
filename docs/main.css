@@ -88,10 +88,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-#resize {
-    display: block;
-    max-width: 639px;
+#image {
+    max-width: 100%;
     height: auto;
+    box-shadow: 1px 0px 22px 2px rgba(51,51,51,1);
 }
 .flex-container {
     display: flex;
@@ -102,8 +102,6 @@ textarea {
     justify-content: center;
     font-family: 'Raleway', sans-serif;
     background-color: black;
-    border-radius: 10px;
-    border-color: red;
 }
 .flex-item {
     text-align: center;
@@ -112,8 +110,9 @@ textarea {
     flex-wrap: nowrap;
     padding: 5px;
     margin: 5px;
-    background-color: darkslategrey;
+    background-color: #424242;
     font-family: 'Playfair Display', serif;
+    box-shadow: 1px 0px 22px 2px rgba(51,51,51,1);
 }
 
 
